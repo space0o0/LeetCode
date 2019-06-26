@@ -1,26 +1,22 @@
 package circleLinked
 
-import leetcode707.LinkedNode
-import leetcode707.MyLinkedList
+import leetcode707.ListNode
 
 fun main() {
 
-    var head = LinkedNode(1)
-    var body2 = LinkedNode(2)
-    var body3 = LinkedNode(3)
-    var body4 = LinkedNode(4)
+    var head = ListNode(1)
+    var body2 = ListNode(2)
+    var body3 = ListNode(3)
+    var body4 = ListNode(4)
+    var body5 = ListNode(5)
 
     head.next = body2
     body2.next = body3
     body3.next = body4
-    body4.next = body2
+    body4.next = body5
 
 
     var solution = Solution()
-    if (solution.hasCircle(head)){
-        System.out.println("has circle")
-    }else{
-        System.out.println("no circle")
-    }
+    solution.removeNthFromEnd(head, 2)
 
 }

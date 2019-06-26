@@ -1,11 +1,11 @@
 package leetcode707;
 
-public class LinkedNode {
+public class ListNode {
 
     public int val;
-    public LinkedNode next;
+    public ListNode next;
 
-    public LinkedNode(int val) {
+    public ListNode(int val) {
         this.val = val;
         this.next = null;
     }

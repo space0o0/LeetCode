@@ -2,20 +2,20 @@ package leetcode707;
 
 public class MyLinkedList {
 
-    private LinkedNode head = null;
+    private ListNode head = null;
 
     public MyLinkedList() {
     }
 
     public void addAtHead(int val) {
-        LinkedNode newHead = new LinkedNode(val);
+        ListNode newHead = new ListNode(val);
         newHead.next = head;
         head = newHead;
     }
 
     public void addAtTail(int val) {
-        LinkedNode newNode = new LinkedNode(val);
-        LinkedNode tempHead = head;
+        ListNode newNode = new ListNode(val);
+        ListNode tempHead = head;
 
         while (tempHead.next != null) {
             tempHead = tempHead.next;
@@ -33,8 +33,8 @@ public class MyLinkedList {
             return;
         }
 
-        LinkedNode tempNode = head;
-        LinkedNode newNode = new LinkedNode(val);
+        ListNode tempNode = head;
+        ListNode newNode = new ListNode(val);
         while (tempNode.next != null) {
 
             if (index - 1 == position) {
@@ -51,7 +51,7 @@ public class MyLinkedList {
 
     public int get(int index) {
 
-        LinkedNode tempNode = head;
+        ListNode tempNode = head;
         int position = 0;
 
         if (tempNode == null) {
@@ -74,7 +74,7 @@ public class MyLinkedList {
 
     public void deleteAtIndex(int index) {
 
-        LinkedNode tempNode = head;
+        ListNode tempNode = head;
         int position = 0;
 
         if (index == 0) {
@@ -96,7 +96,7 @@ public class MyLinkedList {
     }
 
     public void showALl() {
-        LinkedNode tempHead = head;
+        ListNode tempHead = head;
 
         while (tempHead != null) {
             System.out.println(tempHead.val);
