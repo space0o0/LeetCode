@@ -203,4 +203,25 @@ public class Solution {
         return head;
 
     }
+
+    public ListNode oddEvenList(ListNode head) {
+
+        if(head==null){return null;}
+
+        ListNode oddList=head;//奇数
+        ListNode evenList=head.next;//偶数
+
+        ListNode temp=evenList;
+
+        while(evenList!=null&&evenList.next!=null){
+            oddList.next=evenList.next;
+            oddList=oddList.next;
+            evenList.next=oddList.next;
+            evenList=evenList.next;
+        }
+
+        oddList.next=temp;
+
+        return head;
+    }
 }

@@ -17,6 +17,6 @@ fun main() {
 
 
     var solution = Solution()
-    solution.reverseList(head)
+    solution.oddEvenList(head)
 
 }
