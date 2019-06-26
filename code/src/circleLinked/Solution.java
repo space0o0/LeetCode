@@ -161,4 +161,23 @@ public class Solution {
 
         return head;
     }
+
+    public ListNode reverseList(ListNode head) {
+
+        if(head==null) return null;
+
+        ListNode list=head;
+        ListNode newHead=null;
+
+        while(list!=null){
+            ListNode next=list.next;
+
+            list.next=newHead;
+            newHead=list;
+
+            list=next;
+        }
+
+        return newHead;
+    }
 }

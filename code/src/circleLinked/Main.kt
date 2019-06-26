@@ -17,6 +17,6 @@ fun main() {
 
 
     var solution = Solution()
-    solution.removeNthFromEnd(head, 2)
+    solution.reverseList(head)
 
 }
