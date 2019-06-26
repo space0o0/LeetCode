@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd9b0a06-52f2-4c7b-8e35-8d1d4d21eea5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/circleLinked/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/circleLinked/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/circleLinked/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/circleLinked/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/leetcode707/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/leetcode707/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/code/circleLinked/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/code/circleLinked/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/code/circleLinked/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/code/circleLinked/Solution.class" afterDir="false" />
-    </list>
+    <list default="true" id="fd9b0a06-52f2-4c7b-8e35-8d1d4d21eea5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +32,8 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/src/circleLinked/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="168" column="27" lean-forward="true" selection-start-line="168" selection-start-column="27" selection-end-line="168" selection-end-column="27" />
+            <state relative-caret-position="42">
+              <caret line="162" column="5" lean-forward="true" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -403,8 +396,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/src/circleLinked/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="168" column="27" lean-forward="true" selection-start-line="168" selection-start-column="27" selection-end-line="168" selection-end-column="27" />
+        <state relative-caret-position="42">
+          <caret line="162" column="5" lean-forward="true" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
         </state>
       </provider>
     </entry>
