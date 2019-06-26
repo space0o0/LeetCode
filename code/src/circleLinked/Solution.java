@@ -180,4 +180,27 @@ public class Solution {
 
         return newHead;
     }
+
+    public ListNode removeElements(ListNode head, int val) {
+
+        if(head==null){return null;}
+
+        ListNode list=head;
+
+        while(list.next!=null){
+
+            if(list.next.val==val){
+                list.next=list.next.next;
+            }else{
+                list=list.next;
+            }
+        }
+
+        if(head.val==val){
+            head=head.next;
+        }
+
+        return head;
+
+    }
 }
