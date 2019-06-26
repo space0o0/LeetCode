@@ -49,20 +49,27 @@ public class MyLinkedList {
         }
     }
 
-    public void get(int index) {
+    public int get(int index) {
 
         LinkedNode tempNode = head;
         int position = 0;
+
+        if (tempNode == null) {
+            return -1;
+        }
+
         while (tempNode.next != null) {
 
-            if (index == position) {
-                System.out.println("the value of index is : " + tempNode.val);
-                return;
+            if (index - 1 == position) {
+                System.out.println("the value of index is : " + tempNode.next.val);
+                return tempNode.next.val;
             }
 
             tempNode = tempNode.next;
             position = position + 1;
         }
+
+        return -1;
     }
 
     public void deleteAtIndex(int index) {
@@ -77,7 +84,7 @@ public class MyLinkedList {
 
         while (tempNode.next != null) {
 
-            if (index-1 == position) {
+            if (index - 1 == position) {
                 tempNode.next = tempNode.next.next;
                 return;
             }
