@@ -224,4 +224,49 @@ public class Solution {
 
         return head;
     }
+
+    public boolean isPalindrome(ListNode head) {
+
+        if(head==null){
+            return true;
+        }
+
+        if(head.next==null){
+            return true;
+        }
+
+        ListNode fast=head;
+        ListNode slow=head;
+
+        ListNode rev=null;
+        int len=0;
+
+        while(fast!=null){
+
+            fast=fast.next.next;
+
+            //rev
+            ListNode next=slow.next;
+            slow.next=rev;
+            rev=slow;
+            slow=next;
+
+            //最后一个
+            if(fast!=null&&fast.next==null){//1->2->1;  1->2;
+                slow=slow.next;
+                break;
+            }
+        }
+
+        while(slow!=null&&rev!=null){
+            if(slow.val!=rev.val){
+                return false;
+            }
+
+            slow=slow.next;
+            rev=rev.next;
+        }
+
+        return true;
+    }
 }
