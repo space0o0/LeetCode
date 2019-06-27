@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd9b0a06-52f2-4c7b-8e35-8d1d4d21eea5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/circleLinked/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/circleLinked/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/src/circleLinked/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/circleLinked/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/code/circleLinked/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/code/circleLinked/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/code/circleLinked/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/code/circleLinked/Solution.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,8 +35,8 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/src/circleLinked/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="264" lean-forward="true" selection-start-line="264" selection-end-line="264" />
+            <state relative-caret-position="70">
+              <caret line="272" column="14" selection-start-line="272" selection-start-column="14" selection-end-line="272" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -391,8 +387,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/src/circleLinked/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="264" lean-forward="true" selection-start-line="264" selection-end-line="264" />
+        <state relative-caret-position="70">
+          <caret line="272" column="14" selection-start-line="272" selection-start-column="14" selection-end-line="272" selection-end-column="14" />
         </state>
       </provider>
     </entry>
