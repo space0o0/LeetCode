@@ -13,6 +13,7 @@ public class MinStack {
     public MinStack() {
         stack = new Stack<>();
         minStack = new Stack<>();
+        
     }
 
     public void push(int x) {
