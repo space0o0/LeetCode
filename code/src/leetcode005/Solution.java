@@ -17,7 +17,7 @@ public class Solution {
         for (l = 0; l < len; l++) {
             for (r = l + 1; r < len; r++) {
 
-                if (s.charAt(l) == s.charAt(r) && ((r - l >= 1) || dp[l + 1][r - 1])) {
+                if (s.charAt(l) == s.charAt(r) && ((r - l <=2) || dp[l + 1][r - 1])) {
                     dp[l][r] = true;
 
                     String c = s.substring(l, r + 1);
