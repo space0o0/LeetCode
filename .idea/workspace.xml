@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd9b0a06-52f2-4c7b-8e35-8d1d4d21eea5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/code/src/leetcode009/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/leetcode009/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/leetcode005/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/leetcode005/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/leetcode013/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/leetcode014/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/code/META-INF/code.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/production/code/META-INF/code.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/code/leetcode496/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/production/code/leetcode496/Solution.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,19 +19,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code/src/leetcode009/Solution.java">
+        <entry file="file://$PROJECT_DIR$/code/src/leetcode005/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            <state relative-caret-position="336">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/src/leetcode009/main.kt">
+        <entry file="file://$PROJECT_DIR$/code/src/leetcode005/main.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -72,10 +73,14 @@
         <option value="$PROJECT_DIR$/code/src/leetcode009/main.java" />
         <option value="$PROJECT_DIR$/code/src/leetcode009/main.kt" />
         <option value="$PROJECT_DIR$/code/src/leetcode009/Solution.java" />
+        <option value="$PROJECT_DIR$/code/src/leetcode013/Solution.java" />
+        <option value="$PROJECT_DIR$/code/src/leetcode014/Solution.java" />
+        <option value="$PROJECT_DIR$/code/src/leetcode005/main.kt" />
+        <option value="$PROJECT_DIR$/code/src/leetcode005/Solution.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1280" />
     <option name="y" value="-257" />
     <option name="width" value="1920" />
@@ -108,12 +113,12 @@
             <path>
               <item name="LeetCode" type="58d84e3e:PackageViewProjectNode" />
               <item name="code" type="616d4139:PackageViewModuleNode" />
-              <item name="leetcode009" type="1f31426a:PackageElementNode" />
+              <item name="leetcode005" type="1f31426a:PackageElementNode" />
             </path>
             <path>
               <item name="LeetCode" type="58d84e3e:PackageViewProjectNode" />
               <item name="code" type="616d4139:PackageViewModuleNode" />
-              <item name="leetcode496" type="1f31426a:PackageElementNode" />
+              <item name="leetcode014" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -167,18 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode009.MainKt">
-    <configuration name="Mmm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode707.Mmm" />
-      <module name="code" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode707.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.leetcode005.MainKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -206,6 +200,16 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="circleLinked.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="leetcode005.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode005.MainKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="leetcode009.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -261,19 +265,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Mmm" />
       <item itemvalue="Kotlin.circleLinked.MainKt" />
       <item itemvalue="Kotlin.leetcode155.MainKt" />
       <item itemvalue="Kotlin.leetcode496.MainKt" />
       <item itemvalue="Kotlin.leetcode009.MainKt" />
+      <item itemvalue="Kotlin.leetcode005.MainKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode005.MainKt" />
         <item itemvalue="Kotlin.leetcode009.MainKt" />
         <item itemvalue="Kotlin.leetcode496.MainKt" />
         <item itemvalue="Kotlin.leetcode155.MainKt" />
         <item itemvalue="Kotlin.circleLinked.MainKt" />
-        <item itemvalue="Application.Mmm" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +304,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="-257" width="1920" height="1057" extended-state="0" />
+    <frame x="1280" y="-257" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -382,6 +386,18 @@
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/code/src/leetcode005/Solution.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/code/src/leetcode005/Solution.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/code/src/leetcode155/main.kt</url>
           <line>6</line>
@@ -395,11 +411,27 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="22" />
+      <option name="time" value="25" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JetRunConfigurationType">
+        <watch expression="s.charAt(l)" language="JAVA" />
+        <watch expression="s.charAt(r)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>s.charAt(r)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s.charAt(l)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>slow.val</expression-string>
         <language-id>JAVA</language-id>
@@ -413,44 +445,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code/src/queue/MyCircularQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/src/leetcode001/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/src/leetcode002/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/src/leetcode003/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/src/leetcode007/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/src/leetcode020/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -775,8 +769,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/src/leetcode009/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        <state relative-caret-position="147">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/leetcode013/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/leetcode014/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/leetcode005/main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/leetcode005/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
